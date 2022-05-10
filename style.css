@@ -1,0 +1,441 @@
+@import url(fonts.css);
+
+/* font-family: Raleway-Black;
+font-family: Raleway-Bold;
+font-family: Raleway-Regular;
+font-family: Raleway-Thin;
+font-family: Roboto-Bold;
+font-family: Roboto-Regular; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* outline: 1px red solid; */
+}
+
+
+.container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-content-list2{
+    display: flex;
+    margin: 21px;
+}
+
+.nav-content{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav-content-list{
+    margin: 21px;
+}
+
+.nav-content-list2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content-list-link{
+    color: white;
+    display: flex;
+    margin: 0 27px 0 28px;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-family: Roboto-Regular;
+}
+
+
+.main-nav-content-list-link{
+    font-size: 18px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 14px 0 14px;
+    padding: 18px 14px;
+    font-family: Raleway-Regular;
+}
+
+.main-nav-content-list-link:hover{
+    background: green;
+    
+}
+
+.main-nav-content-list2{
+    
+}
+
+.main-nav-content{
+    color: white;
+    background: black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.logo-2{
+    color: white;
+    background: green;
+    padding: 12px 18px 11px 18px;
+    margin: 6px 0 6px 0;
+    border-radius: 5px;
+    font-family: Roboto-Bold;
+}
+
+.logo{
+    color: white;
+}
+
+.fas{
+    padding: 0 5px;
+}
+
+header{
+    
+    
+   
+    
+}
+
+:root{
+    --icon: fas fa-cart-plus;
+}
+
+
+
+.big-gamburger{
+    color: #69CF17;
+    font-size: 72px;
+    width: 732px;
+    height: 85px;
+    font-family: Raleway-Black;
+}
+
+.meat{
+    color: #69CF17;
+    padding: 18px 1205px 18px 0;
+    font-size: 36px;
+    font-family: Raleway-Regular;
+}
+
+.bulo4ka{
+    color: white;
+    width: 1110px;
+    height: 72px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    font-family: Raleway-Regular;
+}
+
+.cena{
+    color: white;
+    background: #69CF1780;
+    width: 285px;
+    height: 103px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway-Thin;
+    margin-bottom: 179px;
+}
+
+.how-much{
+    display: flex;
+    width: 1110px;
+    justify-content: space-between;
+}
+
+
+.view{
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px;
+    width: 255px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 56px 0 207px 0;
+    font-family: Raleway-Regular;
+}
+
+
+.header-content{
+    padding: 167px 623px 18px 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    background: linear-gradient(0deg, rgba(12, 12, 12, 0.72), rgba(12, 12, 12, 0.72)), url(img/header.logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.more{
+    background: #292929;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.more-nav{
+    color: white;
+    padding: 21px 35px 21px 21px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Raleway-Regular;
+}
+
+
+.card1{
+    width: 370px;
+    height: 524px;
+    padding: 15px;
+    background: black;
+    border: 1px white solid;
+}
+
+
+
+
+.bur{
+
+}
+
+
+.meat-h{
+    color: white;
+    font-size: 19px;
+    line-height: 15px;
+    padding: 15px 0;
+    font-family: Raleway-Bold;
+}
+
+
+.meat-p{
+    color: white;
+    font-size: 19px;
+    line-height: 25px;
+    font-family: Raleway-Regular;
+}
+
+
+
+
+.cards{
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #393636;
+    gap: 30px;
+    padding: 15px;
+    
+}
+
+.burger-logo{
+    width: 100%;
+    height: 100%;
+    background: url(img/Gamburger.png);
+    background-size: cover;
+    display: flex;
+    width: 340px;
+    height: 325px;
+    
+}
+
+
+.burger-logo i{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 325px;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.burger-logo i:hover{
+    background: rgba(105, 207, 23, 0.9);
+    width: 340px;
+    height: 325px;
+    opacity: 1;
+}
+
+
+
+
+
+
+/* .burger-logo{
+    width: 100%;
+    height: 100%;
+    background: url(img/Gamburger.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 340px;
+    height: 325px;
+    transition: 500ms;
+}
+
+.burger-logo:hover{
+    background: rgba(105, 207, 23, 0.9);
+    
+
+}
+
+
+.icon{
+    font-size: 60px;
+    overflow: hidden;
+    opacity: 0;
+    width: 340px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+}
+
+.icon:hover{
+    font-size: 60px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 325px;
+} */
+
+
+.footer-content{
+    background: linear-gradient(180deg, #000000 0%, rgba(116, 235, 19, 0.92) 100%);
+    height: 325px;
+}
+
+.STREET-88{
+    font-size: 36px;
+    color: white;
+    background: rgba(10, 148, 24, 0.75);
+    border: 4px solid #06600F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Roboto-Bold;
+}
+
+.tel{
+    color: white;
+    font-size: 20px;
+    font-family: Roboto-Bold;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0 81px 0;
+}
+
+
+.footer-nav-list-link{
+    color: white;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    font-family: Roboto-Regular;
+}
+
+
+.footer-nav-list{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.PROWEB{
+    color: white;
+    background: #1A3406;
+    display: flex;
+    justify-content: center;
+    padding: 19px;
+    font-family: Roboto-Regular;
+}
+
+main{
+    
+}
+
+.main-cook{
+    background: url(img/photo_cropped.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1600px;
+    width: 1570px;
+    height: 400px;
+}
+
+
+
+.About-us-h{
+    display: flex;
+    justify-content: center;
+    color: #69CF17B2;
+    font-size: 55px;
+    padding: 148px 414px 187px 414px;
+    
+}
+
+
+.qwerty{
+    max-width: 1600px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    padding-left: 244px;
+    padding: 30px 245px 30px 245px;
+    color: white;
+    font-family: Raleway-Bold;
+    background: black;
+}
+
+.filial{
+    color: #69CF17;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 2px;
+    font-family: Raleway-Bold;
+}
+
+
+
+.geo{
+    
+}
